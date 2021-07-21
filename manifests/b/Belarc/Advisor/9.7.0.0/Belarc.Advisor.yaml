@@ -1,4 +1,4 @@
-# Automatically updated by the winget bot at 2021/Jun/30
+# Automatically updated by the winget bot at 2021/Jul/16
 PackageIdentifier: Belarc.Advisor
 PackageVersion: 9.7.0.0
 PackageName: Belarc Advisor
@@ -16,7 +16,7 @@ ShortDescription: The Belarc Advisor builds a detailed profile of your installed
 Installers:
 - Architecture: x86
   InstallerUrl: https://downloads.belarc.com/advisor/advisorinstaller.exe
-  InstallerSha256: 14843CE2C2C0EDC151D08E28A3D9D717992C0C49518ED4952DBFF0683A2B9BA1
+  InstallerSha256: 2E10C9EE34355F84DE45A8348376F0BA58364C7B944459F5CDAB3027E439EE5C
   InstallerType: exe
   InstallerSwitches:
     Silent: /s
