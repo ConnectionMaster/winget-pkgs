@@ -10,61 +10,33 @@ InstallerSwitches:
   SilentWithProgress: /S /PreventRebootRequired=true
   InstallLocation: /InstallDirectoryPath="<INSTALLPATH>"
 UpgradeBehavior: install
-ReleaseDate: 2024-12-04
+Protocols:
+- http
+- https
+- mailto
+FileExtensions:
+- avif
+- htm
+- html
+- pdf
+- shtml
+- svg
+- webp
+- xht
+- xhtml
+ReleaseDate: 2024-12-11
 Installers:
 - Architecture: x86
-  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/134.0b5/win32/hu/Firefox%20Setup%20134.0b5.exe
-  InstallerSha256: E7774CAB4AD10CDF9E231AE0DF4A7042B1153FB02F10C5EF7BE543CE57321397
-  Protocols:
-  - http
-  - https
-  - mailto
-  FileExtensions:
-  - avif
-  - htm
-  - html
-  - pdf
-  - shtml
-  - svg
-  - webp
-  - xht
-  - xhtml
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/134.0b9/win32/hu/Firefox%20Setup%20134.0b9.exe
+  InstallerSha256: 9B0413A40040BE7365CD183433C7F86249ECB330F72A577F5C9CFE115CCBC048
   ProductCode: Firefox Developer Edition 134.0 (x86 hu)
 - Architecture: x64
-  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/134.0b5/win64/hu/Firefox%20Setup%20134.0b5.exe
-  InstallerSha256: B06B5FB15885EBFC691002172286718E08C19B481DCFFD83F440806CE8827989
-  Protocols:
-  - http
-  - https
-  - mailto
-  FileExtensions:
-  - avif
-  - htm
-  - html
-  - pdf
-  - shtml
-  - svg
-  - webp
-  - xht
-  - xhtml
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/134.0b9/win64/hu/Firefox%20Setup%20134.0b9.exe
+  InstallerSha256: 45D1148C6BD7E54C7871D75C10132FC52637F85A874FCEAACB3C20C41DF7A083
   ProductCode: Firefox Developer Edition 134.0 (x64 hu)
 - Architecture: arm64
-  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/134.0b5/win64-aarch64/hu/Firefox%20Setup%20134.0b5.exe
-  InstallerSha256: 963EFEAB2F87E7878AB7FB060692F180F8E1855476A761AAA21E24FB7589272D
-  Protocols:
-  - http
-  - https
-  - mailto
-  FileExtensions:
-  - avif
-  - htm
-  - html
-  - pdf
-  - shtml
-  - svg
-  - webp
-  - xht
-  - xhtml
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/134.0b9/win64-aarch64/hu/Firefox%20Setup%20134.0b9.exe
+  InstallerSha256: C3D59F4262E43258994ECAE77F3757F7613AEBFE134BD1228BEEE283DCD0312E
   ProductCode: Firefox Developer Edition 134.0 (arm64 hu)
 ManifestType: installer
 ManifestVersion: 1.9.0
